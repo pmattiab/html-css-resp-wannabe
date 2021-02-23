@@ -71,3 +71,27 @@ img {
 .clear {
   clear: both;
 }
+
+/* MEDIA QUERY RESPONSIVE */
+
+@media screen and (max-width: 420px) {
+  
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+  width: 100%;
+  margin-bottom: 80px;
+  }
+  
+  #lezioni .row>h1,
+  #steps .row>h1 {
+    margin-bottom: 80px;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+  width: 100%;
+  margin-bottom: 80px;
+  }  
+
+}
