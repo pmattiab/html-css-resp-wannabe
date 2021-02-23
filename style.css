@@ -78,20 +78,39 @@ img {
   
   #lezioni .row>.left,
   #lezioni .row>.right {
-  width: 100%;
-  margin-bottom: 80px;
-  }
-  
-  #lezioni .row>h1,
-  #steps .row>h1 {
+    width: 100%;
     margin-bottom: 80px;
   }
 
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
-  width: 100%;
-  margin-bottom: 80px;
-  }  
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  
+  #steps .row,
+  #why .row {
+    background-color: #f9f9f9;
+  }
+
+  #lezioni .row,
+  #steps .row,
+  #why .row {
+    font-size: 30px;
+  }
+
+  #lezioni .row>h1,
+  #steps .row>h1,
+  #why .row>h1 {
+    font-size: 60px;
+    margin-bottom: 80px;
+  }
+
+  #lezioni .row h3,
+  #steps .row h3,
+  #why .row h3 {
+    font-size: 45px;
+  }
 
 }
